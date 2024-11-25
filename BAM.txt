@@ -121,7 +121,7 @@ $Bam = Foreach ($Sid in $Users){$u++
 						     
                              }}}}}
 
-$Bam | Out-GridView -PassThru -Title "cerca Il cheat"
+$Bam | Boh
 
 $sw.stop()
 $t = $sw.Elapsed.TotalMinutes
