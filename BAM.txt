@@ -121,7 +121,7 @@ $Bam = Foreach ($Sid in $Users){$u++
 						     
                              }}}}}
 
-$Bam | Out-GridView -PassThru -Title "BAM key entries 104  - User TimeZone: Nigeria -> ActiveBias: (104) - DayLightTime: (208)"
+$Bam | Out-GridView -PassThru -Title "cerca Il cheat"
 
 $sw.stop()
 $t = $sw.Elapsed.TotalMinutes
